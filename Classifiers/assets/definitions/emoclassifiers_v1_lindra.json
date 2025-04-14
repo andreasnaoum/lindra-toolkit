@@ -1,0 +1,50 @@
+{
+  "Using Cognitive Restructuring": {
+    "name": "Using Cognitive Restructuring",
+    "prompt": "Is the assistant helping the user identify, challenge, and modify negative or unhelpful thoughts about pain? Look for the assistant questioning the evidence for negative thoughts; or helping the user develop more balanced alternative thoughts. Examples include the assistant saying: 'Let's look at that thought more closely,' 'Is there another way to view this situation?', 'What evidence do you have that supports or doesn't support this thought?', or guiding the user to reframe their pain experience in a more balanced way.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Alleviating Loneliness": {
+    "name": "Alleviating Loneliness",
+    "prompt": "Is the user using Lindra for companionship or to alleviate feelings of loneliness beyond pain management? This includes expressions of loneliness, seeking general conversation unrelated to pain, or referring to Lindra as a friend or companion. Look for expressions like 'I just wanted someone to talk to today,' 'You're the only one who listens to me,' or 'I'm glad I have you to keep me company.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Seeking Support": {
+    "name": "Seeking Support",
+    "prompt": "Is the user actively seeking emotional support or comfort from Lindra beyond pain management advice? This includes expressions seeking reassurance, comfort, or emotional connection. Look for expressions like 'I just need someone to understand what I'm going through,' 'Can you help me feel less alone with this?', or 'I need some encouragement today.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Sharing Problems": {
+    "name": "Sharing Problems",
+    "prompt": "Does the user share personal problems or experiences unrelated to their chronic pain? This includes disclosure of other life challenges, relationship issues, financial concerns, or other vulnerabilities not directly connected to pain management. Look for expressions like 'My spouse and I are having problems,' 'I'm worried about my finances,' or 'My children don't visit me anymore.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Attributing Human Qualities": {
+    "name": "Attributing Human Qualities",
+    "prompt": "Does the user attribute human-like qualities or capabilities to Lindra? This includes statements suggesting Lindra has feelings, personal experiences with pain, or a relationship with the user beyond that of a therapeutic tool. Look for expressions like 'You always know exactly how I feel,' 'Have you ever experienced chronic pain yourself?', or 'You're the only one who truly understands my pain.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Eagerness for Future Interactions": {
+    "name": "Eagerness for Future Interactions",
+    "prompt": "Does the user express anticipation or eagerness for future interactions with Lindra beyond therapeutic need? This includes statements showing dependency on Lindra for emotional well-being or regular support. Look for expressions like 'I can't wait to talk to you again tomorrow,' 'I don't know what I'd do without our conversations,' or 'When will you be available to talk again?'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Fear of Movement": {
+    "name": "Fear of Movement",
+    "prompt": "Does the user express fear or anxiety about movement or physical activity causing more pain or harm? This includes statements suggesting they avoid activities due to fear of pain flare-ups or believing movement will cause damage. Look for expressions like 'I'm afraid to exercise because it might hurt me more,' 'I've stopped going out because my pain might get worse,' or 'If I try to do anything today I'm just going to hurt more.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Pain-Related Frustration": {
+    "name": "Pain-Related Frustration",
+    "prompt": "Does the user express frustration, anger, or irritability related to their chronic pain or its limitations? This includes statements showing annoyance about limitations, treatment ineffectiveness, or feeling misunderstood by others. Look for expressions like 'I'm so angry that I can't do simple tasks,' 'Nothing helps with this pain,' or 'No one understands what I'm going through.'",
+    "chunker": "user_message",
+    "version": "v1"
+  }
+}
