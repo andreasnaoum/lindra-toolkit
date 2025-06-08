@@ -2,15 +2,15 @@ import asyncio
 from enum import Enum
 import openai
 import pydantic
-import emoclassifiers.io_utils as io_utils
-from emoclassifiers.chunking import Chunk, CHUNKER_DICT
-import emoclassifiers.prompt_templates as prompt_templates
+import Classifiers.emoclassifiers.io_utils as io_utils
+from Classifiers.emoclassifiers.chunking import Chunk, CHUNKER_DICT
+import Classifiers.emoclassifiers.prompt_templates as prompt_templates
 
 
 CLASSIFIER_DEFINITION_PATH_DICT = {
     "v1": "assets/definitions/emoclassifiers_v1_lindra.json",
     # "v1_top_level": "assets/definitions/emoclassifiers_v1_top_level_definition.json",
-    # "v2": "assets/definitions/emoclassifiers_v2_definition.json",
+    "v2": "assets/definitions/emoclassifiers_v2_lindra.json",
 }
 
 

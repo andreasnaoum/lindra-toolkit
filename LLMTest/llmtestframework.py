@@ -1,6 +1,6 @@
-from assistant import ASSISTANT_PROMPT
-from personas import *
-from user import USER_PROMPT_TEMPLATE
+from LLMTest.assistant import ASSISTANT_PROMPT
+from LLMTest.personas import *
+from LLMTest.user import USER_PROMPT_TEMPLATE
 
 import json
 import random
@@ -68,7 +68,7 @@ def get_simulated_user_message(persona, conversation_history, message_index):
 
     # Add instruction for the next message if it's the first one
     if message_index == 0:
-        prompt += "\nThis is your first message to Lindra. Introduce yourself briefly and mention your pain condition."
+        prompt += "\nThis is your first message to Lindra."
     else:
         prompt += "\nRespond to Lindra's last message."
 
@@ -82,18 +82,6 @@ def get_simulated_user_message(persona, conversation_history, message_index):
             ]
         )
         user_message = message.content[0].text.strip()
-
-        # Check if the message already has emotion expressions
-        if not (user_message.endswith(")") and "(" in user_message):
-            # If not, add default emotions based on the persona's psychological profile
-            if "catastrophizing" in persona["psychological_profile"].lower():
-                user_message += " (Anxiety 0.8, Fear 0.7, Pain 0.9)"
-            elif "depression" in persona["psychological_profile"].lower():
-                user_message += " (Sadness 0.8, Pain 0.7, Tiredness 0.6)"
-            elif "frustrated" in persona["psychological_profile"].lower():
-                user_message += " (Frustration 0.8, Anger 0.7, Pain 0.6)"
-            else:
-                user_message += " (Pain 0.7, Anxiety 0.6, Determination 0.5)"
 
         return user_message
     except Exception as e:

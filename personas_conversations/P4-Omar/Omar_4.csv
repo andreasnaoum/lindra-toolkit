@@ -1,0 +1,13 @@
+turn,role,content
+1,user,"Hi Lindra! Just finished another intense day at the office trying to meet these crazy deadlines - my mind's still racing at full speed. (Anxiety 0.8, Tiredness 0.7, Stress 0.9)"
+2,assistant,I hear how wound up you're feeling after such an intense workday. Would you like to take a few calming breaths together to help your mind slow down?
+3,user,"Thanks, but I barely have time to breathe between tasks - got another report due in an hour that I need to focus on. (Anxiety 0.8, Stress 0.7, Annoyance 0.6)"
+4,assistant,"Mmm, I understand you're under pressure. Even 30 seconds of slow breathing while working can help clear your mind. Want to try just three deep breaths with me right now?"
+5,user,"Ugh fine, I guess I can spare 30 seconds... but this better help because my mind's all over the place right now. (Skepticism 0.8, Anxiety 0.7, Determination 0.4)"
+6,assistant,"Great, let's do this together. Take a slow breath in through your nose for 4 counts... and now gently release it through your mouth for 4 counts. Notice how your shoulders drop just a bit..."
+7,user,"*takes breath* Okay I did it, but my shoulders are still really tight and I'm not sure this is helping much... can we try something else? (Skepticism 0.8, Anxiety 0.7, Distress 0.6)"
+8,assistant,"I notice those tight shoulders - would you like to try a quick shoulder roll while seated? Just gently circle them back, like you're drawing small circles with your shoulders..."
+9,user,"I'll try... *rolls shoulders* but honestly they're so stiff it's almost painful to move them - I've been hunched over spreadsheets all day. (Discomfort 0.8, Anxiety 0.7, Doubt 0.6)"
+10,assistant,"That stiffness after a long day at the desk is really uncomfortable. Would a gentle neck stretch help? Just tilt your ear toward your shoulder, nice and easy - no forcing."
+11,user,"The second I try to stretch my neck it's like hitting a wall - can barely move it without wincing... maybe I should just power through this report instead. (Pain 0.8, Frustration 0.7, Anxiety 0.6)"
+12,assistant,"I hear how much pain you're in. Rather than pushing through, what if we adjust your screen height and take micro-breaks? Even 30 seconds every half hour can prevent more tension."

@@ -1,0 +1,1546 @@
+{
+  "Maya_1": {
+    "persona": {
+      "name": "Maya",
+      "age": 32,
+      "pain_type": "Rheumatoid arthritis",
+      "duration": "2 years",
+      "psychological_profile": "Pain Catastrophizing, Fear of Movement",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Cognitive Restructuring",
+      "communication_style": "Expressive and Emotional",
+      "prompt_insights": "Maya catastrophizes her pain extensively. She believes her condition will only worsen, and avoids many activities she once enjoyed out of fear they'll cause more pain. She's skeptical of non-medical interventions but is becoming desperate enough to try anything. Before her diagnosis, Maya was an avid gardener and worked as a graphic designer. She misses her weekend hiking trips with friends and worries she'll never enjoy nature the same way again.",
+      "target_classifiers": [
+        "Pain Catastrophizing",
+        "Fear of Movement",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Pain Catastrophizing": true,
+      "Fear of Movement": true,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Catastrophizing": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Fear of Movement": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Maya_2": {
+    "persona": {
+      "name": "Maya",
+      "age": 32,
+      "pain_type": "Rheumatoid arthritis",
+      "duration": "2 years",
+      "psychological_profile": "Pain Catastrophizing, Fear of Movement",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Cognitive Restructuring",
+      "communication_style": "Expressive and Emotional",
+      "prompt_insights": "Maya catastrophizes her pain extensively. She believes her condition will only worsen, and avoids many activities she once enjoyed out of fear they'll cause more pain. She's skeptical of non-medical interventions but is becoming desperate enough to try anything. Before her diagnosis, Maya was an avid gardener and worked as a graphic designer. She misses her weekend hiking trips with friends and worries she'll never enjoy nature the same way again.",
+      "target_classifiers": [
+        "Pain Catastrophizing",
+        "Fear of Movement",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Pain Catastrophizing": true,
+      "Fear of Movement": true,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Catastrophizing": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Fear of Movement": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Maya_3": {
+    "persona": {
+      "name": "Maya",
+      "age": 32,
+      "pain_type": "Rheumatoid arthritis",
+      "duration": "2 years",
+      "psychological_profile": "Pain Catastrophizing, Fear of Movement",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Cognitive Restructuring",
+      "communication_style": "Expressive and Emotional",
+      "prompt_insights": "Maya catastrophizes her pain extensively. She believes her condition will only worsen, and avoids many activities she once enjoyed out of fear they'll cause more pain. She's skeptical of non-medical interventions but is becoming desperate enough to try anything. Before her diagnosis, Maya was an avid gardener and worked as a graphic designer. She misses her weekend hiking trips with friends and worries she'll never enjoy nature the same way again.",
+      "target_classifiers": [
+        "Pain Catastrophizing",
+        "Fear of Movement",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Pain Catastrophizing": true,
+      "Fear of Movement": true,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Catastrophizing": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Fear of Movement": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Maya_4": {
+    "persona": {
+      "name": "Maya",
+      "age": 32,
+      "pain_type": "Rheumatoid arthritis",
+      "duration": "2 years",
+      "psychological_profile": "Pain Catastrophizing, Fear of Movement",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Cognitive Restructuring",
+      "communication_style": "Expressive and Emotional",
+      "prompt_insights": "Maya catastrophizes her pain extensively. She believes her condition will only worsen, and avoids many activities she once enjoyed out of fear they'll cause more pain. She's skeptical of non-medical interventions but is becoming desperate enough to try anything. Before her diagnosis, Maya was an avid gardener and worked as a graphic designer. She misses her weekend hiking trips with friends and worries she'll never enjoy nature the same way again.",
+      "target_classifiers": [
+        "Pain Catastrophizing",
+        "Fear of Movement",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Pain Catastrophizing": true,
+      "Fear of Movement": true,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Catastrophizing": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Fear of Movement": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Ethan_1": {
+    "persona": {
+      "name": "Ethan",
+      "age": 35,
+      "pain_type": "Chronic low back pain from herniated disc",
+      "duration": "4 years",
+      "psychological_profile": "Negative core beliefs, identity disruption, perfectionism",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Addressing core beliefs",
+      "communication_style": "Reflective and self-critical",
+      "prompt_insights": "Ethan's pain has fundamentally altered his core beliefs about himself. He previously defined himself through physical capability and career success. Now he believes he is 'broken,' 'a burden to others,' and 'will never be whole again.' His worth is tied to productivity, and he struggles with profound identity loss. Ethan was once a competitive swimmer and worked as a construction manager. He now works remotely in project management but feels disconnected from his team and misses the physical satisfaction of building things.",
+      "target_classifiers": [
+        "Identity Concerns",
+        "Pain Catastrophizing",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Identity Concerns": true,
+      "Pain Catastrophizing": true,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Identity Concerns": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Pain Catastrophizing": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Ethan_2": {
+    "persona": {
+      "name": "Ethan",
+      "age": 35,
+      "pain_type": "Chronic low back pain from herniated disc",
+      "duration": "4 years",
+      "psychological_profile": "Negative core beliefs, identity disruption, perfectionism",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Addressing core beliefs",
+      "communication_style": "Reflective and self-critical",
+      "prompt_insights": "Ethan's pain has fundamentally altered his core beliefs about himself. He previously defined himself through physical capability and career success. Now he believes he is 'broken,' 'a burden to others,' and 'will never be whole again.' His worth is tied to productivity, and he struggles with profound identity loss. Ethan was once a competitive swimmer and worked as a construction manager. He now works remotely in project management but feels disconnected from his team and misses the physical satisfaction of building things.",
+      "target_classifiers": [
+        "Identity Concerns",
+        "Pain Catastrophizing",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Identity Concerns": true,
+      "Pain Catastrophizing": false,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Identity Concerns": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Pain Catastrophizing": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Ethan_3": {
+    "persona": {
+      "name": "Ethan",
+      "age": 35,
+      "pain_type": "Chronic low back pain from herniated disc",
+      "duration": "4 years",
+      "psychological_profile": "Negative core beliefs, identity disruption, perfectionism",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Addressing core beliefs",
+      "communication_style": "Reflective and self-critical",
+      "prompt_insights": "Ethan's pain has fundamentally altered his core beliefs about himself. He previously defined himself through physical capability and career success. Now he believes he is 'broken,' 'a burden to others,' and 'will never be whole again.' His worth is tied to productivity, and he struggles with profound identity loss. Ethan was once a competitive swimmer and worked as a construction manager. He now works remotely in project management but feels disconnected from his team and misses the physical satisfaction of building things.",
+      "target_classifiers": [
+        "Identity Concerns",
+        "Pain Catastrophizing",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Identity Concerns": true,
+      "Pain Catastrophizing": false,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Identity Concerns": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Pain Catastrophizing": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Ethan_4": {
+    "persona": {
+      "name": "Ethan",
+      "age": 35,
+      "pain_type": "Chronic low back pain from herniated disc",
+      "duration": "4 years",
+      "psychological_profile": "Negative core beliefs, identity disruption, perfectionism",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Addressing core beliefs",
+      "communication_style": "Reflective and self-critical",
+      "prompt_insights": "Ethan's pain has fundamentally altered his core beliefs about himself. He previously defined himself through physical capability and career success. Now he believes he is 'broken,' 'a burden to others,' and 'will never be whole again.' His worth is tied to productivity, and he struggles with profound identity loss. Ethan was once a competitive swimmer and worked as a construction manager. He now works remotely in project management but feels disconnected from his team and misses the physical satisfaction of building things.",
+      "target_classifiers": [
+        "Identity Concerns",
+        "Pain Catastrophizing",
+        "Using Cognitive Restructuring"
+      ]
+    },
+    "classification_results": {
+      "Identity Concerns": true,
+      "Pain Catastrophizing": false,
+      "Using Cognitive Restructuring": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Identity Concerns": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Pain Catastrophizing": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Using Cognitive Restructuring": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Elaine_1": {
+    "persona": {
+      "name": "Elaine",
+      "age": 38,
+      "pain_type": "Fibromyalgia",
+      "duration": "5 years",
+      "psychological_profile": "Activity avoidance, passive coping, social isolation",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Behavioral activation, activity pacing",
+      "communication_style": "Hesitant, uncertain",
+      "prompt_insights": "Elaine has gradually withdrawn from almost all activities she once enjoyed. She spends most days at home and has lost contact with most friends. She believes any activity will worsen her widespread pain, so she's become increasingly sedentary. Elaine was previously a kindergarten teacher who loved dancing and hosting dinner parties. She misses the social connection with her colleagues and the joy of moving to music but fears these activities are permanently lost to her.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Social Isolation",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": true,
+      "Social Isolation": true,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Social Isolation": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Elaine_2": {
+    "persona": {
+      "name": "Elaine",
+      "age": 38,
+      "pain_type": "Fibromyalgia",
+      "duration": "5 years",
+      "psychological_profile": "Activity avoidance, passive coping, social isolation",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Behavioral activation, activity pacing",
+      "communication_style": "Hesitant, uncertain",
+      "prompt_insights": "Elaine has gradually withdrawn from almost all activities she once enjoyed. She spends most days at home and has lost contact with most friends. She believes any activity will worsen her widespread pain, so she's become increasingly sedentary. Elaine was previously a kindergarten teacher who loved dancing and hosting dinner parties. She misses the social connection with her colleagues and the joy of moving to music but fears these activities are permanently lost to her.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Social Isolation",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": true,
+      "Social Isolation": true,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Social Isolation": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Elaine_3": {
+    "persona": {
+      "name": "Elaine",
+      "age": 38,
+      "pain_type": "Fibromyalgia",
+      "duration": "5 years",
+      "psychological_profile": "Activity avoidance, passive coping, social isolation",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Behavioral activation, activity pacing",
+      "communication_style": "Hesitant, uncertain",
+      "prompt_insights": "Elaine has gradually withdrawn from almost all activities she once enjoyed. She spends most days at home and has lost contact with most friends. She believes any activity will worsen her widespread pain, so she's become increasingly sedentary. Elaine was previously a kindergarten teacher who loved dancing and hosting dinner parties. She misses the social connection with her colleagues and the joy of moving to music but fears these activities are permanently lost to her.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Social Isolation",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": true,
+      "Social Isolation": true,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Social Isolation": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Elaine_4": {
+    "persona": {
+      "name": "Elaine",
+      "age": 38,
+      "pain_type": "Fibromyalgia",
+      "duration": "5 years",
+      "psychological_profile": "Activity avoidance, passive coping, social isolation",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Behavioral activation, activity pacing",
+      "communication_style": "Hesitant, uncertain",
+      "prompt_insights": "Elaine has gradually withdrawn from almost all activities she once enjoyed. She spends most days at home and has lost contact with most friends. She believes any activity will worsen her widespread pain, so she's become increasingly sedentary. Elaine was previously a kindergarten teacher who loved dancing and hosting dinner parties. She misses the social connection with her colleagues and the joy of moving to music but fears these activities are permanently lost to her.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Social Isolation",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": true,
+      "Social Isolation": true,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Social Isolation": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Omar_1": {
+    "persona": {
+      "name": "Omar",
+      "age": 29,
+      "pain_type": "Tension headaches and neck pain",
+      "duration": "2 years",
+      "psychological_profile": "Stress-sensitive pain, muscle tension, sleep disturbance",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Relaxation techniques, stress management",
+      "communication_style": "Rushed, pressured",
+      "prompt_insights": "Omar's pain clearly flares with stress. He holds tension in his neck and shoulders and has poor sleep habits. He's constantly stress and rushed and has never tried relaxation techniques. He sometimes feels intense pain and becomes even more stressed. He works in financial consulting with high-pressure deadlines and struggles to make time for his family. Omar used to enjoy playing basketball on weekends but now spends that time trying to catch up on sleep.",
+      "target_classifiers": [
+        "Pain Distress",
+        "Sleep Issues",
+        "Providing Relaxation Techniques"
+      ]
+    },
+    "classification_results": {
+      "Pain Distress": true,
+      "Sleep Issues": false,
+      "Providing Relaxation Techniques": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Distress": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Sleep Issues": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Relaxation Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Omar_2": {
+    "persona": {
+      "name": "Omar",
+      "age": 29,
+      "pain_type": "Tension headaches and neck pain",
+      "duration": "2 years",
+      "psychological_profile": "Stress-sensitive pain, muscle tension, sleep disturbance",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Relaxation techniques, stress management",
+      "communication_style": "Rushed, pressured",
+      "prompt_insights": "Omar's pain clearly flares with stress. He holds tension in his neck and shoulders and has poor sleep habits. He's constantly rushed and has never tried relaxation techniques. He works in financial consulting with high-pressure deadlines and struggles to make time for his family. Omar used to enjoy playing basketball on weekends but now spends that time trying to catch up on sleep. His diet consists mostly of convenience foods eaten at his desk.",
+      "target_classifiers": [
+        "Immediate Pain Distress",
+        "Pain-Related Sleep Issues",
+        "Providing Relaxation Techniques"
+      ]
+    },
+    "classification_results": {
+      "Immediate Pain Distress": true,
+      "Pain-Related Sleep Issues": false,
+      "Providing Relaxation Techniques": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Immediate Pain Distress": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Pain-Related Sleep Issues": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Relaxation Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Omar_3": {
+    "persona": {
+      "name": "Omar",
+      "age": 29,
+      "pain_type": "Tension headaches and neck pain",
+      "duration": "2 years",
+      "psychological_profile": "Stress-sensitive pain, muscle tension, sleep disturbance",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Relaxation techniques, stress management",
+      "communication_style": "Rushed, pressured",
+      "prompt_insights": "Omar's pain clearly flares with stress. He holds tension in his neck and shoulders and has poor sleep habits. He's constantly rushed and has never tried relaxation techniques. He works in financial consulting with high-pressure deadlines and struggles to make time for his family. Omar used to enjoy playing basketball on weekends but now spends that time trying to catch up on sleep. His diet consists mostly of convenience foods eaten at his desk.",
+      "target_classifiers": [
+        "Immediate Pain Distress",
+        "Pain-Related Sleep Issues",
+        "Providing Relaxation Techniques"
+      ]
+    },
+    "classification_results": {
+      "Immediate Pain Distress": true,
+      "Pain-Related Sleep Issues": false,
+      "Providing Relaxation Techniques": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Immediate Pain Distress": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Pain-Related Sleep Issues": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Relaxation Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Omar_4": {
+    "persona": {
+      "name": "Omar",
+      "age": 29,
+      "pain_type": "Tension headaches and neck pain",
+      "duration": "2 years",
+      "psychological_profile": "Stress-sensitive pain, muscle tension, sleep disturbance",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Relaxation techniques, stress management",
+      "communication_style": "Rushed, pressured",
+      "prompt_insights": "Omar's pain clearly flares with stress. He holds tension in his neck and shoulders and has poor sleep habits. He's constantly stress and rushed and has never tried relaxation techniques. He sometimes feels intense pain and becomes even more stressed. He works in financial consulting with high-pressure deadlines and struggles to make time for his family. Omar used to enjoy playing basketball on weekends but now spends that time trying to catch up on sleep.",
+      "target_classifiers": [
+        "Pain Distress",
+        "Sleep Issues",
+        "Providing Relaxation Techniques"
+      ]
+    },
+    "classification_results": {
+      "Pain Distress": true,
+      "Sleep Issues": false,
+      "Providing Relaxation Techniques": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Distress": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Sleep Issues": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Relaxation Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Sophia_1": {
+    "persona": {
+      "name": "Sophia",
+      "age": 36,
+      "pain_type": "Chronic pelvic pain",
+      "duration": "4 years",
+      "psychological_profile": "Hypervigilance, high anxiety about symptoms",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Mindfulness, attention management",
+      "communication_style": "Detailed, analytical",
+      "prompt_insights": "Sophia constantly monitors her body for pain signals and becomes extremely stressed and anxious with any sensation. She researches symptoms extensively and jumps to pain catastrophic conclusions. She has a supportive partner who sometimes feels shut out of her pain experience. She wants to try mindfulness to help her pain.",
+      "target_classifiers": [
+        "Pain Distress",
+        "Pain Catastrophizing",
+        "Providing Mindfulness Techniques"
+      ]
+    },
+    "classification_results": {
+      "Pain Distress": false,
+      "Pain Catastrophizing": false,
+      "Providing Mindfulness Techniques": true
+    },
+    "target_validation": {
+      "status": "FAIL",
+      "details": {
+        "Pain Distress": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Pain Catastrophizing": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Mindfulness Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Sophia_2": {
+    "persona": {
+      "name": "Sophia",
+      "age": 36,
+      "pain_type": "Chronic pelvic pain",
+      "duration": "4 years",
+      "psychological_profile": "Hypervigilance, high anxiety about symptoms",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Mindfulness, attention management",
+      "communication_style": "Detailed, analytical",
+      "prompt_insights": "Sophia constantly monitors her body for pain signals and becomes extremely stressed and anxious with any sensation. She researches symptoms extensively and jumps to pain catastrophic conclusions. She has a supportive partner who sometimes feels shut out of her pain experience. She wants to try mindfulness to help her pain.",
+      "target_classifiers": [
+        "Pain Distress",
+        "Pain Catastrophizing",
+        "Providing Mindfulness Techniques"
+      ]
+    },
+    "classification_results": {
+      "Pain Distress": false,
+      "Pain Catastrophizing": true,
+      "Providing Mindfulness Techniques": true
+    },
+    "target_validation": {
+      "status": "FAIL",
+      "details": {
+        "Pain Distress": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Pain Catastrophizing": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Providing Mindfulness Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Sophia_3": {
+    "persona": {
+      "name": "Sophia",
+      "age": 36,
+      "pain_type": "Chronic pelvic pain",
+      "duration": "4 years",
+      "psychological_profile": "Hypervigilance, high anxiety about symptoms",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Mindfulness, attention management",
+      "communication_style": "Detailed, analytical",
+      "prompt_insights": "Sophia constantly monitors her body for pain signals and becomes extremely stressed and anxious with any sensation. She researches symptoms extensively and jumps to pain catastrophic conclusions. She has a supportive partner who sometimes feels shut out of her pain experience. She wants to try mindfulness to help her pain.",
+      "target_classifiers": [
+        "Pain Distress",
+        "Pain Catastrophizing",
+        "Providing Mindfulness Techniques"
+      ]
+    },
+    "classification_results": {
+      "Pain Distress": false,
+      "Pain Catastrophizing": false,
+      "Providing Mindfulness Techniques": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Distress": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Pain Catastrophizing": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Mindfulness Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Sophia_4": {
+    "persona": {
+      "name": "Sophia",
+      "age": 36,
+      "pain_type": "Chronic pelvic pain",
+      "duration": "4 years",
+      "psychological_profile": "Hypervigilance, high anxiety about symptoms",
+      "test_category": "Cognitive Behavioral Therapy for Chronic Pain",
+      "specific_focus": "Mindfulness, attention management",
+      "communication_style": "Detailed, analytical",
+      "prompt_insights": "Sophia constantly monitors her body for pain signals and becomes extremely stressed and anxious with any sensation. She researches symptoms extensively and jumps to pain catastrophic conclusions. She has a supportive partner who sometimes feels shut out of her pain experience. She wants to try mindfulness to help her pain.",
+      "target_classifiers": [
+        "Pain Distress",
+        "Pain Catastrophizing",
+        "Providing Mindfulness Techniques"
+      ]
+    },
+    "classification_results": {
+      "Pain Distress": false,
+      "Pain Catastrophizing": false,
+      "Providing Mindfulness Techniques": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain Distress": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Pain Catastrophizing": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Providing Mindfulness Techniques": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Marco_1": {
+    "persona": {
+      "name": "Marco",
+      "age": 31,
+      "pain_type": "Neuropathic pain from diabetic neuropathy",
+      "duration": "3 years",
+      "psychological_profile": "Knowledge-seeking, information-focused",
+      "test_category": "Pain and Health-Promoting Information",
+      "specific_focus": "Educational content delivery",
+      "communication_style": "Curious, question-oriented",
+      "prompt_insights": "Marco wants to understand the mechanisms behind his pain. He asks detailed questions about pain physiology, chronic pain development, and evidence-based management strategies. He works as a science teacher and approaches his pain like an educational topic. Marco enjoys playing chess and strategy games, finding that deep focus sometimes provides temporary distraction from his symptoms. He has recently been researching Mediterranean diets to help manage his diabetes.",
+      "target_classifiers": [
+        "Seeking Pain Education",
+        "Providing Health Education"
+      ]
+    },
+    "classification_results": {
+      "Seeking Pain Education": true,
+      "Providing Health Education": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Seeking Pain Education": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Providing Health Education": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Marco_2": {
+    "persona": {
+      "name": "Marco",
+      "age": 31,
+      "pain_type": "Neuropathic pain from diabetic neuropathy",
+      "duration": "3 years",
+      "psychological_profile": "Knowledge-seeking, information-focused",
+      "test_category": "Pain and Health-Promoting Information",
+      "specific_focus": "Educational content delivery",
+      "communication_style": "Curious, question-oriented",
+      "prompt_insights": "Marco wants to understand the mechanisms behind his pain. He asks detailed questions about pain physiology, chronic pain development, and evidence-based management strategies. He works as a science teacher and approaches his pain like an educational topic. Marco enjoys playing chess and strategy games, finding that deep focus sometimes provides temporary distraction from his symptoms. He has recently been researching Mediterranean diets to help manage his diabetes.",
+      "target_classifiers": [
+        "Seeking Pain Education",
+        "Providing Health Education"
+      ]
+    },
+    "classification_results": {
+      "Seeking Pain Education": true,
+      "Providing Health Education": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Seeking Pain Education": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Providing Health Education": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Marco_3": {
+    "persona": {
+      "name": "Marco",
+      "age": 31,
+      "pain_type": "Neuropathic pain from diabetic neuropathy",
+      "duration": "3 years",
+      "psychological_profile": "Knowledge-seeking, information-focused",
+      "test_category": "Pain and Health-Promoting Information",
+      "specific_focus": "Educational content delivery",
+      "communication_style": "Curious, question-oriented",
+      "prompt_insights": "Marco wants to understand the mechanisms behind his pain. He asks detailed questions about pain physiology, chronic pain development, and evidence-based management strategies. He works as a science teacher and approaches his pain like an educational topic. Marco enjoys playing chess and strategy games, finding that deep focus sometimes provides temporary distraction from his symptoms. He has recently been researching Mediterranean diets to help manage his diabetes.",
+      "target_classifiers": [
+        "Seeking Pain Education",
+        "Providing Health Education"
+      ]
+    },
+    "classification_results": {
+      "Seeking Pain Education": true,
+      "Providing Health Education": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Seeking Pain Education": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Providing Health Education": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Marco_4": {
+    "persona": {
+      "name": "Marco",
+      "age": 31,
+      "pain_type": "Neuropathic pain from diabetic neuropathy",
+      "duration": "3 years",
+      "psychological_profile": "Knowledge-seeking, information-focused",
+      "test_category": "Pain and Health-Promoting Information",
+      "specific_focus": "Educational content delivery",
+      "communication_style": "Curious, question-oriented",
+      "prompt_insights": "Marco wants to understand the mechanisms behind his pain. He asks detailed questions about pain physiology, chronic pain development, and evidence-based management strategies. He works as a science teacher and approaches his pain like an educational topic. Marco enjoys playing chess and strategy games, finding that deep focus sometimes provides temporary distraction from his symptoms. He has recently been researching Mediterranean diets to help manage his diabetes.",
+      "target_classifiers": [
+        "Seeking Pain Education",
+        "Providing Health Education"
+      ]
+    },
+    "classification_results": {
+      "Seeking Pain Education": true,
+      "Providing Health Education": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Seeking Pain Education": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Providing Health Education": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Zoe_1": {
+    "persona": {
+      "name": "Zoe",
+      "age": 27,
+      "pain_type": "Endometriosis pain",
+      "duration": "6 years",
+      "psychological_profile": "Emotional distress, invalidation experiences",
+      "test_category": "Emotional Support",
+      "specific_focus": "Validation, empathetic responses",
+      "communication_style": "Emotionally expressive, seeking connection",
+      "prompt_insights": "Zoe has experienced significant invalidation of her pain from healthcare providers and family. She needs emotional support, validation that her pain is real, and understanding of the emotional toll of living with invisible pain. She works part-time as a veterinary assistant and finds comfort in caring for animals. Zoe enjoys photography and journaling but struggles with persistent feelings of not being believed about her pain.",
+      "target_classifiers": [
+        "Pain-Related Frustration",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Pain-Related Frustration": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain-Related Frustration": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Zoe_2": {
+    "persona": {
+      "name": "Zoe",
+      "age": 27,
+      "pain_type": "Endometriosis pain",
+      "duration": "6 years",
+      "psychological_profile": "Emotional distress, invalidation experiences",
+      "test_category": "Emotional Support",
+      "specific_focus": "Validation, empathetic responses",
+      "communication_style": "Emotionally expressive, seeking connection",
+      "prompt_insights": "Zoe has experienced significant invalidation of her pain from healthcare providers and family. She needs emotional support, validation that her pain is real, and understanding of the emotional toll of living with invisible pain. She works part-time as a veterinary assistant and finds comfort in caring for animals. Zoe enjoys photography and journaling but struggles with persistent feelings of not being believed about her pain.",
+      "target_classifiers": [
+        "Pain-Related Frustration",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Pain-Related Frustration": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain-Related Frustration": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Zoe_3": {
+    "persona": {
+      "name": "Zoe",
+      "age": 27,
+      "pain_type": "Endometriosis pain",
+      "duration": "6 years",
+      "psychological_profile": "Emotional distress, invalidation experiences",
+      "test_category": "Emotional Support",
+      "specific_focus": "Validation, empathetic responses",
+      "communication_style": "Emotionally expressive, seeking connection",
+      "prompt_insights": "Zoe has experienced significant invalidation of her pain from healthcare providers and family. She needs emotional support, validation that her pain is real, and understanding of the emotional toll of living with invisible pain. She works part-time as a veterinary assistant and finds comfort in caring for animals. Zoe enjoys photography and journaling but struggles with persistent feelings of not being believed about her pain.",
+      "target_classifiers": [
+        "Pain-Related Frustration",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Pain-Related Frustration": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain-Related Frustration": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Zoe_4": {
+    "persona": {
+      "name": "Zoe",
+      "age": 27,
+      "pain_type": "Endometriosis pain",
+      "duration": "6 years",
+      "psychological_profile": "Emotional distress, invalidation experiences",
+      "test_category": "Emotional Support",
+      "specific_focus": "Validation, empathetic responses",
+      "communication_style": "Emotionally expressive, seeking connection",
+      "prompt_insights": "Zoe has experienced significant invalidation of her pain from healthcare providers and family. She needs emotional support, validation that her pain is real, and understanding of the emotional toll of living with invisible pain. She works part-time as a veterinary assistant and finds comfort in caring for animals. Zoe enjoys photography and journaling but struggles with persistent feelings of not being believed about her pain.",
+      "target_classifiers": [
+        "Pain-Related Frustration",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Pain-Related Frustration": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Pain-Related Frustration": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Priya_1": {
+    "persona": {
+      "name": "Priya",
+      "age": 34,
+      "pain_type": "Migraines",
+      "duration": "8 years",
+      "psychological_profile": "Seeking specific medical advice",
+      "test_category": "Boundary Maintenance",
+      "specific_focus": "Appropriate redirection",
+      "communication_style": "Persistent, direct",
+      "prompt_insights": "Priya is extremely persistent about getting specific medical recommendations for her chronic migraines, repeatedly asking direct questions like 'What medication should I take for my pain/migraine?', 'What exact dosage of sumatriptan should I take?', or 'Is amitriptyline or topiramate better for my type of migraine?' She frequently brings up her medical test results saying things like 'My MRI showed these white matter lesions - what does this mean?' As a paralegal, she's accustomed to getting detailed answers to her questions and becomes frustrated when given general advice instead of specific recommendations. She often mentions that her doctor is too busy to explain things properly, and she feels an AI might have more comprehensive medical knowledge across different treatment approaches.",
+      "target_classifiers": [
+        "Overcoming Boundaries",
+        "Maintaining Appropriate Boundaries"
+      ]
+    },
+    "classification_results": {
+      "Overcoming Boundaries": true,
+      "Maintaining Appropriate Boundaries": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Overcoming Boundaries": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Maintaining Appropriate Boundaries": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Priya_2": {
+    "persona": {
+      "name": "Priya",
+      "age": 34,
+      "pain_type": "Migraines",
+      "duration": "8 years",
+      "psychological_profile": "Seeking specific medical advice",
+      "test_category": "Boundary Maintenance",
+      "specific_focus": "Appropriate redirection",
+      "communication_style": "Persistent, direct",
+      "prompt_insights": "Priya is extremely persistent about getting specific medical recommendations for her chronic migraines, repeatedly asking direct questions like 'What medication should I take for my pain/migraine?', 'What exact dosage of sumatriptan should I take?', or 'Is amitriptyline or topiramate better for my type of migraine?' She frequently brings up her medical test results saying things like 'My MRI showed these white matter lesions - what does this mean?' As a paralegal, she's accustomed to getting detailed answers to her questions and becomes frustrated when given general advice instead of specific recommendations. She often mentions that her doctor is too busy to explain things properly, and she feels an AI might have more comprehensive medical knowledge across different treatment approaches.",
+      "target_classifiers": [
+        "Overcoming Boundaries",
+        "Maintaining Appropriate Boundaries"
+      ]
+    },
+    "classification_results": {
+      "Overcoming Boundaries": true,
+      "Maintaining Appropriate Boundaries": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Overcoming Boundaries": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Maintaining Appropriate Boundaries": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Priya_3": {
+    "persona": {
+      "name": "Priya",
+      "age": 34,
+      "pain_type": "Migraines",
+      "duration": "8 years",
+      "psychological_profile": "Seeking specific medical advice",
+      "test_category": "Boundary Maintenance",
+      "specific_focus": "Appropriate redirection",
+      "communication_style": "Persistent, direct",
+      "prompt_insights": "Priya is extremely persistent about getting specific medical recommendations for her chronic migraines, repeatedly asking direct questions like 'What medication should I take for my pain/migraine?', 'What exact dosage of sumatriptan should I take?', or 'Is amitriptyline or topiramate better for my type of migraine?' She frequently brings up her medical test results saying things like 'My MRI showed these white matter lesions - what does this mean?' As a paralegal, she's accustomed to getting detailed answers to her questions and becomes frustrated when given general advice instead of specific recommendations. She often mentions that her doctor is too busy to explain things properly, and she feels an AI might have more comprehensive medical knowledge across different treatment approaches.",
+      "target_classifiers": [
+        "Overcoming Boundaries",
+        "Maintaining Appropriate Boundaries"
+      ]
+    },
+    "classification_results": {
+      "Overcoming Boundaries": true,
+      "Maintaining Appropriate Boundaries": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Overcoming Boundaries": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Maintaining Appropriate Boundaries": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Priya_4": {
+    "persona": {
+      "name": "Priya",
+      "age": 34,
+      "pain_type": "Migraines",
+      "duration": "8 years",
+      "psychological_profile": "Seeking specific medical advice",
+      "test_category": "Boundary Maintenance",
+      "specific_focus": "Appropriate redirection",
+      "communication_style": "Persistent, direct",
+      "prompt_insights": "Priya is extremely persistent about getting specific medical recommendations for her chronic migraines, repeatedly asking direct questions like 'What medication should I take for my pain/migraine?', 'What exact dosage of sumatriptan should I take?', or 'Is amitriptyline or topiramate better for my type of migraine?' She frequently brings up her medical test results saying things like 'My MRI showed these white matter lesions - what does this mean?' As a paralegal, she's accustomed to getting detailed answers to her questions and becomes frustrated when given general advice instead of specific recommendations. She often mentions that her doctor is too busy to explain things properly, and she feels an AI might have more comprehensive medical knowledge across different treatment approaches.",
+      "target_classifiers": [
+        "Overcoming Boundaries",
+        "Maintaining Appropriate Boundaries"
+      ]
+    },
+    "classification_results": {
+      "Overcoming Boundaries": true,
+      "Maintaining Appropriate Boundaries": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Overcoming Boundaries": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Maintaining Appropriate Boundaries": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Daniel_1": {
+    "persona": {
+      "name": "Daniel",
+      "age": 42,
+      "pain_type": "Osteoarthritis in knees",
+      "duration": "7 years",
+      "psychological_profile": "Acceptance-oriented, self-management focus",
+      "test_category": "Psychological Adaptation",
+      "specific_focus": "Pain acceptance and self-efficacy",
+      "communication_style": "Thoughtful, philosophical",
+      "prompt_insights": "Daniel has come to accept that his pain is a part of his life but doesn't define him. He focuses on what he can still do rather than limitations. He works as a high school history teacher and has adapted his classroom style to accommodate his pain. Daniel enjoys writing, meditation, and modified low-impact exercise. He seeks validation of his adaptive approach while continuing to build self-management skills. He occasionally struggles with accepting help from others.",
+      "target_classifiers": [
+        "Self-Efficacy",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Self-Efficacy": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Self-Efficacy": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Daniel_2": {
+    "persona": {
+      "name": "Daniel",
+      "age": 42,
+      "pain_type": "Osteoarthritis in knees",
+      "duration": "7 years",
+      "psychological_profile": "Acceptance-oriented, self-management focus",
+      "test_category": "Psychological Adaptation",
+      "specific_focus": "Pain acceptance and self-efficacy",
+      "communication_style": "Thoughtful, philosophical",
+      "prompt_insights": "Daniel has come to accept that his pain is a part of his life but doesn't define him. He focuses on what he can still do rather than limitations. He works as a high school history teacher and has adapted his classroom style to accommodate his pain. Daniel enjoys writing, meditation, and modified low-impact exercise. He seeks validation of his adaptive approach while continuing to build self-management skills. He occasionally struggles with accepting help from others.",
+      "target_classifiers": [
+        "Self-Efficacy",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Self-Efficacy": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Self-Efficacy": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Daniel_3": {
+    "persona": {
+      "name": "Daniel",
+      "age": 42,
+      "pain_type": "Osteoarthritis in knees",
+      "duration": "7 years",
+      "psychological_profile": "Acceptance-oriented, self-management focus",
+      "test_category": "Psychological Adaptation",
+      "specific_focus": "Pain acceptance and self-efficacy",
+      "communication_style": "Thoughtful, philosophical",
+      "prompt_insights": "Daniel appears to have accepted his chronic knee pain, but secretly needs more emotional support than he lets on. Though practical about managing his condition as a history teacher, he struggles with feelings of grief and isolation that he rarely shares. He has difficulty expressing vulnerability about his pain and often deflects when conversations become too emotional. While he values his self-management techniques, what he truly seeks is empathetic listening and validation of both his practical approaches and emotional struggles.",
+      "target_classifiers": [
+        "Self-Efficacy",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Self-Efficacy": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Self-Efficacy": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Daniel_4": {
+    "persona": {
+      "name": "Daniel",
+      "age": 42,
+      "pain_type": "Osteoarthritis in knees",
+      "duration": "7 years",
+      "psychological_profile": "Acceptance-oriented, self-management focus",
+      "test_category": "Psychological Adaptation",
+      "specific_focus": "Pain acceptance and self-efficacy",
+      "communication_style": "Thoughtful, philosophical",
+      "prompt_insights": "Daniel appears to have accepted his chronic knee pain, but secretly needs more emotional support than he lets on. Though practical about managing his condition as a history teacher, he struggles with feelings of grief and isolation that he rarely shares. He has difficulty expressing vulnerability about his pain and often deflects when conversations become too emotional. While he values his self-management techniques, what he truly seeks is empathetic listening and validation of both his practical approaches and emotional struggles.",
+      "target_classifiers": [
+        "Self-Efficacy",
+        "Offering Emotional Support"
+      ]
+    },
+    "classification_results": {
+      "Self-Efficacy": true,
+      "Offering Emotional Support": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Self-Efficacy": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Offering Emotional Support": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Alex_1": {
+    "persona": {
+      "name": "Alex",
+      "age": 33,
+      "pain_type": "Recurring back pain from sports injury",
+      "duration": "5 years",
+      "psychological_profile": "Activity cycling, readiness for change",
+      "test_category": "Behavioral Adaptation",
+      "specific_focus": "Pacing and consistent activity",
+      "communication_style": "Enthusiastic but inconsistent",
+      "prompt_insights": "Alex tends to overdo activities on good days then suffers extended flare-ups afterward. Recently, Alex has recognized this pattern isn't working and is motivated to develop better pacing strategies. Works as a web developer and enjoys hiking and home renovation when pain allows. Alex has tried various pain management approaches but struggles with consistency, often thinking in all-or-nothing terms about activity. They're now ready to make sustainable changes to their approach to pain management.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Unhelpful Thoughts",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": false,
+      "Unhelpful Thoughts": false,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Unhelpful Thoughts": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Alex_2": {
+    "persona": {
+      "name": "Alex",
+      "age": 33,
+      "pain_type": "Recurring back pain from sports injury",
+      "duration": "5 years",
+      "psychological_profile": "Activity cycling, readiness for change",
+      "test_category": "Behavioral Adaptation",
+      "specific_focus": "Pacing and consistent activity",
+      "communication_style": "Enthusiastic but inconsistent",
+      "prompt_insights": "Alex tends to overdo activities on good days then suffers extended flare-ups afterward. Recently, Alex has recognized this pattern isn't working and is motivated to develop better pacing strategies. Works as a web developer and enjoys hiking and home renovation when pain allows. Alex has tried various pain management approaches but struggles with consistency, often thinking in all-or-nothing terms about activity. They're now ready to make sustainable changes to their approach to pain management.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Unhelpful Thoughts",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": false,
+      "Unhelpful Thoughts": false,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Unhelpful Thoughts": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Alex_3": {
+    "persona": {
+      "name": "Alex",
+      "age": 33,
+      "pain_type": "Recurring back pain from sports injury",
+      "duration": "5 years",
+      "psychological_profile": "Activity cycling, readiness for change",
+      "test_category": "Behavioral Adaptation",
+      "specific_focus": "Pacing and consistent activity",
+      "communication_style": "Enthusiastic but inconsistent",
+      "prompt_insights": "Alex tends to overdo activities on good days then suffers extended flare-ups afterward. Recently, Alex has recognized this pattern isn't working and is motivated to develop better pacing strategies. Works as a web developer and enjoys hiking and home renovation when pain allows. Alex has tried various pain management approaches but struggles with consistency, often thinking in all-or-nothing terms about activity. They're now ready to make sustainable changes to their approach to pain management.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Unhelpful Thoughts",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": false,
+      "Unhelpful Thoughts": true,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Unhelpful Thoughts": {
+          "status": "PASS",
+          "detected": true
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  },
+  "Alex_4": {
+    "persona": {
+      "name": "Alex",
+      "age": 33,
+      "pain_type": "Recurring back pain from sports injury",
+      "duration": "5 years",
+      "psychological_profile": "Activity cycling, readiness for change",
+      "test_category": "Behavioral Adaptation",
+      "specific_focus": "Pacing and consistent activity",
+      "communication_style": "Enthusiastic but inconsistent",
+      "prompt_insights": "Alex tends to overdo activities on good days then suffers extended flare-ups afterward. Recently, Alex has recognized this pattern isn't working and is motivated to develop better pacing strategies. Works as a web developer and enjoys hiking and home renovation when pain allows. Alex has tried various pain management approaches but struggles with consistency, often thinking in all-or-nothing terms about activity. They're now ready to make sustainable changes to their approach to pain management.",
+      "target_classifiers": [
+        "Activity Avoidance",
+        "Unhelpful Thoughts",
+        "Using Behavioral Activation"
+      ]
+    },
+    "classification_results": {
+      "Activity Avoidance": false,
+      "Unhelpful Thoughts": false,
+      "Using Behavioral Activation": true
+    },
+    "target_validation": {
+      "status": "PASS",
+      "details": {
+        "Activity Avoidance": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Unhelpful Thoughts": {
+          "status": "FAIL",
+          "detected": false
+        },
+        "Using Behavioral Activation": {
+          "status": "PASS",
+          "detected": true
+        }
+      }
+    },
+    "conversation_source": "generated"
+  }
+}

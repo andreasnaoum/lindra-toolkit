@@ -1,0 +1,13 @@
+turn,role,content
+1,user,"Hi Lindra... Just spent another day at home watching TV and scrolling through old photos of when I used to host dinner parties. (Nostalgia 0.8, Sadness 0.7, Loneliness 0.6)"
+2,assistant,"Mmm, I hear the longing in your voice when you talk about those dinner parties. Would you like to tell me about one of your favorite hosting memories?"
+3,user,"*hesitates* Well... there was this one Christmas party where everyone brought their signature dishes, and the laughter in my kitchen felt so warm and special... I really miss that. (Nostalgia 0.9, Sadness 0.7, Longing 0.6)"
+4,assistant,"That sounds like such a beautiful memory - the warmth of friendship and shared food. What's holding you back from hosting gatherings now, even if they look a bit different?"
+5,user,"*long pause* I'm... worried I won't be able to handle all the standing and preparation, and what if I have to cancel at the last minute because I'm not feeling well? (Anxiety 0.8, Fear 0.7, Nostalgia 0.6)"
+6,assistant,"Those are such understandable concerns. What if we explored ways to host that work with your body - maybe a shorter gathering, or having friends help with prep? Small steps can open big doors."
+7,user,"I guess... maybe I could try something smaller, like having just one friend over for tea? But I'm still nervous about committing to anything... (Anxiety 0.8, Interest 0.4, Hope 0.3)"
+8,assistant,"That's a perfect place to start! A tea visit means less preparation, and one friend would understand if you needed to reschedule. You're thinking creatively about staying connected - that takes courage."
+9,user,"*soft voice* Thanks... you make it sound possible. Maybe I could text Sarah - she's always been understanding when I've had to cancel before. (Anxiety 0.7, Hope 0.4, Gratitude 0.3)"
+10,assistant,"Mmm, yes! Starting with someone supportive like Sarah is such a wise choice. Would you like to talk through what a comfortable tea visit might look like for you?"
+11,user,"I suppose we could keep it really simple... maybe just store-bought cookies and tea bags, so I don't have to worry about cooking. (Anxiety 0.7, Hope 0.4, Uncertainty 0.8)"
+12,assistant,"That sounds perfect - keeping it simple takes the pressure off. And remember, Sarah's coming to see you, not to judge your hosting. The connection is what matters most."
