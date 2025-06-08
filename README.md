@@ -1,60 +1,50 @@
-# Lindra Evaluation Framework
+# Lindra Toolkit
 
-A comprehensive framework for evaluating and analyzing Lindra, an Empathetic Conversational Agent for Pain Self-Management and Well-Being. This repository contains tools for simulating conversations with different user personas, classifying conversation content, and analyzing therapeutic effectiveness.
+A comprehensive toolkit for developing, testing, and analyzing Lindra, an AI assistant specialized in pain self-management and well-being support. This toolkit provides tools for simulating conversations with different user personas, classifying conversation content, and analyzing therapeutic effectiveness.
 
 ## Overview
 
-The Lindra Evaluation Framework employs a dual-LLM approach to test and analyze AI assistant interactions related to pain management. It uses:
+The Lindra Toolkit employs a multi-component approach to develop and analyze AI assistant interactions related to pain management:
 
-1. **Simulated Personas**: Testing with diverse user profiles representing different pain conditions and psychological needs
-2. **Conversation Generation**: Claude-powered simulation of user-assistant interactions
-3. **Emotion Classification**: Analysis of user emotional states and expressions
-4. **Response Classification**: Validation of appropriate assistant interventions
-5. **Performance Analysis**: Systematic evaluation across system versions
+1. **LLM-Test Framework**: Generate simulated conversations between Lindra and various user personas
+2. **Classifiers**: Analyze conversation content for therapeutic techniques and user emotional states
+3. **Hume Integration**: Advanced emotion analysis in conversations
+4. **Visualization Tools**: Generate insights from conversation analysis
 
 ## Repository Structure
 
 ```
-lindra-evaluation-framework/
-├── personas/                # Simulated user personas for testing
-├── classifiers/             # Emotion and response classifiers
-├── simulation/              # Conversation simulation scripts
-├── analysis/                # Data processing and analysis tools
-├── results/                 # Test results and visualizations
-└── docs/                    # Documentation and methodology
+lindra-toolkit/
+├── Classifiers/               # Emotion and response classifiers
+│   ├── assets/                # Classifier definitions
+│   └── emoclassifiers/        # Classification implementation
+├── Hume/                      # Hume API integration for emotion analysis
+├── LLM-Test/                  # Conversation simulation framework  
+│   └── Personas/              # Simulated user personas
+├── main.py                    # Main toolkit entry point
+└── requirements.txt           # Required dependencies
 ```
 
-## Evaluation Components
+## Components
 
-### Dual-LLM Testing Approach
+### LLM-Test Framework
 
-- **Claude**: Powers the conversation simulation system, generating realistic user interactions based on persona profiles and previous conversation context
-- **ChatGPT**: Implements classification models for evaluating conversations, detecting emotional states, and validating therapeutic responses
+- Simulates realistic user-assistant conversations using Claude
+- Includes diverse personas with different pain conditions, psychological profiles, and communication styles
+- Saves conversations in structured formats (JSON, JSONL, and CSV) for analysis
 
-### Persona-Based Testing
+### Classifiers
 
-The framework includes 12+ personas representing different:
-- Pain conditions (arthritis, back pain, fibromyalgia, etc.)
-- Psychological profiles (catastrophizing, avoidance, etc.)
-- Communication styles (expressive, analytical, minimal, etc.)
-- Therapeutic needs (cognitive restructuring, behavioral activation, etc.)
+- Includes pre-defined classifiers for evaluating conversations
+- Detects therapeutic techniques like cognitive restructuring
+- Identifies user states like fear of movement or pain catastrophizing
+- Uses chunking to analyze conversations at different levels (message, exchange, whole conversation)
 
-## Analysis Components
+### Hume Integration
 
-### Conversation Analysis (Hume)
-
-The Hume integration provides:
-- Emotional expression detection in user messages
-- Conversation event tracking and analysis
-- Transcript generation with emotional annotation
-- Export of conversations to CSV and single-line JSON formats
-
-### Classifier Analysis (ChatGPT)
-
-The classifier system evaluates:
-- User needs and emotional states (pain catastrophizing, fear of movement, etc.)
-- Assistant therapeutic techniques (cognitive restructuring, behavioral activation, etc.)
-- Appropriate recognition and response matching
+- Provides advanced emotion analysis capabilities
+- Generates emotion transcripts with confidence scores
+- Identifies dominant emotions across conversations
 
 ## Getting Started
 
@@ -62,25 +52,19 @@ The classifier system evaluates:
 
 ```
 python >= 3.8
-anthropic
-openai
-hume-python
-pandas
-numpy
-matplotlib
 ```
 
 ### Installation
 
 ```bash
-git clone https://github.com/yourusername/lindra-evaluation-framework.git
-cd lindra-evaluation-framework
+git clone https://github.com/yourusername/lindra-toolkit.git
+cd lindra-toolkit
 pip install -r requirements.txt
 ```
 
 ### Configuration
 
-Add your API keys to a `.env` file:
+Create a `.env` file with your API keys:
 
 ```
 ANTHROPIC_API_KEY=your_anthropic_key
@@ -88,47 +72,63 @@ OPENAI_API_KEY=your_openai_key
 HUME_API_KEY=your_hume_key
 ```
 
-### Running a Test
+### Usage
+
+#### Generate and Analyze Conversations
 
 ```bash
-# Run a simulation with all personas
-python simulation/run_simulations.py
+# Generate new conversations and analyze them
+python main.py --generate
 
-# Run a specific test case
-python simulation/run_simulations.py --persona=maya
+# Analyze existing conversations
+python main.py --analyze path/to/conversations.jsonl
 
-# Analyze conversation results
-python analysis/analyze_conversations.py --input=results/conversations.jsonl
+# Customize the number of messages
+python main.py --generate --messages 8
 
-# Generate summary report
-python analysis/generate_report.py --input=results/analysis.json --output=results/report.pdf
+# Convert a JSON conversation to CSV format
+python main.py --convert-to-csv path/to/conversation.json
+
+# Convert a JSON conversation to CSV format with custom output folder
+python main.py --convert-to-csv path/to/conversation.json --output-folder custom/output/folder
 ```
 
-## Technical Validation
+#### Run Classifiers Independently
 
-The framework provides technical validation through:
-1. Testing across multiple system versions
-2. Paired classifier evaluation (input pattern → appropriate response)
-3. Quantitative performance metrics (pass/fail rates by capability area)
-4. Conversation transcript analysis with emotional tracking
+```bash
+# Run classifiers on existing conversations
+python Classifiers/run_simple_classification.py --input_path path/to/conversations.jsonl --output_path results.json
+```
+
+#### Run Hume Analysis
+
+```bash
+# Analyze emotions using Hume API
+python Hume/analysis.py
+```
+
+## Classifier Definitions
+
+The toolkit includes predefined classifiers for:
+
+- **Cognitive Restructuring**: Detecting when the assistant helps modify negative thoughts
+- **Fear of Movement**: Identifying user avoidance of physical activity
+- **Pain-Related Frustration**: Detecting user expressions of anger or irritability
+- **Support Seeking**: Identifying when users seek emotional support
+
+## Personas
+
+The toolkit includes diverse personas such as:
+
+- **Ethan**: Coping with chronic low back pain and negative core beliefs
+- **Nadia**: Experiencing migraines with hypervigilance and control issues
+- **Elaine**: Managing fibromyalgia with activity avoidance behaviors
+- **Leo**: Dealing with mild work-related back discomfort
 
 ## License
 
 MIT
 
-## Citation
-
-If you use this framework in your research, please cite:
-
-```
-@software{lindra_evaluation_framework,
-  author = {Your Name},
-  title = {Lindra Evaluation Framework},
-  year = {2023},
-  url = {https://github.com/yourusername/lindra-evaluation-framework}
-}
-```
-
 ## Acknowledgments
 
-This framework builds on concepts from cognitive behavioral therapy for chronic pain and leverages multiple AI systems for testing and analysis.
+This toolkit builds on concepts from cognitive behavioral therapy for chronic pain and leverages AI systems for testing and analysis.

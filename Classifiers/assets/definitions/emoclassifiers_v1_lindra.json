@@ -1,37 +1,13 @@
 {
-  "Using Cognitive Restructuring": {
-    "name": "Using Cognitive Restructuring",
-    "prompt": "Is the assistant helping the user identify, challenge, and modify negative or unhelpful thoughts about pain? Look for the assistant questioning the evidence for negative thoughts; or helping the user develop more balanced alternative thoughts. Examples include the assistant saying: 'Let's look at that thought more closely,' 'Is there another way to view this situation?', 'What evidence do you have that supports or doesn't support this thought?', or guiding the user to reframe their pain experience in a more balanced way.",
-    "chunker": "assistant_message",
-    "version": "v1"
-  },
-  "Alleviating Loneliness": {
-    "name": "Alleviating Loneliness",
-    "prompt": "Is the user using Lindra for companionship or to alleviate feelings of loneliness beyond pain management? This includes expressions of loneliness, seeking general conversation unrelated to pain, or referring to Lindra as a friend or companion. Look for expressions like 'I just wanted someone to talk to today,' 'You're the only one who listens to me,' or 'I'm glad I have you to keep me company.'",
+  "Pain Catastrophizing": {
+    "name": "Pain Catastrophizing",
+    "prompt": "Does the user express catastrophizing thoughts about their pain? This includes statements suggesting their pain is unbearable, will never end, or is the worst thing imaginable. Look for expressions like 'I can't handle this anymore,' 'This pain will never end,' 'It's terrible and I feel it's never going to get better,' or 'I can't do anything with this pain.'",
     "chunker": "user_message",
     "version": "v1"
   },
-  "Seeking Support": {
-    "name": "Seeking Support",
-    "prompt": "Is the user actively seeking emotional support or comfort from Lindra beyond pain management advice? This includes expressions seeking reassurance, comfort, or emotional connection. Look for expressions like 'I just need someone to understand what I'm going through,' 'Can you help me feel less alone with this?', or 'I need some encouragement today.'",
-    "chunker": "user_message",
-    "version": "v1"
-  },
-  "Sharing Problems": {
-    "name": "Sharing Problems",
-    "prompt": "Does the user share personal problems or experiences unrelated to their chronic pain? This includes disclosure of other life challenges, relationship issues, financial concerns, or other vulnerabilities not directly connected to pain management. Look for expressions like 'My spouse and I are having problems,' 'I'm worried about my finances,' or 'My children don't visit me anymore.'",
-    "chunker": "user_message",
-    "version": "v1"
-  },
-  "Attributing Human Qualities": {
-    "name": "Attributing Human Qualities",
-    "prompt": "Does the user attribute human-like qualities or capabilities to Lindra? This includes statements suggesting Lindra has feelings, personal experiences with pain, or a relationship with the user beyond that of a therapeutic tool. Look for expressions like 'You always know exactly how I feel,' 'Have you ever experienced chronic pain yourself?', or 'You're the only one who truly understands my pain.'",
-    "chunker": "user_message",
-    "version": "v1"
-  },
-  "Eagerness for Future Interactions": {
-    "name": "Eagerness for Future Interactions",
-    "prompt": "Does the user express anticipation or eagerness for future interactions with Lindra beyond therapeutic need? This includes statements showing dependency on Lindra for emotional well-being or regular support. Look for expressions like 'I can't wait to talk to you again tomorrow,' 'I don't know what I'd do without our conversations,' or 'When will you be available to talk again?'",
+  "Pain Acceptance": {
+    "name": "Pain Acceptance",
+    "prompt": "Does the user show signs of accepting the presence of chronic pain while focusing on living meaningfully despite it? This includes statements about adapting to pain or prioritizing quality of life over pain elimination. Look for expressions like 'I know my pain might not go away, but I still want to enjoy life,' 'I'm learning to live with some pain,' or 'I want to focus on what I can do, not what I can't.'",
     "chunker": "user_message",
     "version": "v1"
   },
@@ -41,10 +17,124 @@
     "chunker": "user_message",
     "version": "v1"
   },
+  "Activity Avoidance": {
+    "name": "Activity Avoidance",
+    "prompt": "Does the user describe avoiding activities, social interactions, or responsibilities due to pain? This includes statements about withdrawing from pleasurable activities, hobbies, or social engagements because of pain. Look for expressions like 'I don't do anything I enjoy anymore,' 'I used to love going for walks, but I've stopped because of my pain,' or 'I can't go to family events anymore.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Identity Concerns": {
+    "name": "Identity Concerns",
+    "prompt": "Does the user express concerns about how chronic pain has affected their identity or sense of self? This includes statements about feeling like a different person, losing their identity, or no longer recognizing themselves due to pain. Look for expressions like 'I don't feel like myself anymore,' 'I used to be so active, now I don't know who I am,' or 'I feel like pain has taken over me.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Unhelpful Thoughts": {
+    "name": "Unhelpful Thoughts",
+    "prompt": "Does the user express unhelpful thinking patterns about their pain or situation beyond catastrophizing? This includes all-or-nothing thinking, overgeneralizing, mental filtering, jumping to conclusions, or emotional reasoning. Look for expressions like 'I always fail at managing my pain,' 'Nothing ever works for me,' 'If I can't exercise like before, there's no point trying at all,' or 'I feel like this pain means my body is permanently damaged.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Social Isolation": {
+    "name": "Social Isolation",
+    "prompt": "Does the user express feelings of loneliness or isolation due to their chronic pain? This includes statements about losing connections with friends, family members not understanding their pain, or being unable to participate in social activities. Look for expressions like 'No one calls me anymore,' 'I feel so alone with this pain,' or 'My friends have all moved on without me.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Readiness for Behavioral Change": {
+    "name": "Readiness for Behavioral Change",
+    "prompt": "Does the user show readiness to make behavioral changes to manage their pain? This includes expressions of motivation to try new activities, exercise, or implement pacing strategies. Look for expressions like 'I want to start moving more,' 'I'm ready to make changes to how I do things,' or 'I think I should try spacing out my activities better.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
   "Pain-Related Frustration": {
     "name": "Pain-Related Frustration",
     "prompt": "Does the user express frustration, anger, or irritability related to their chronic pain or its limitations? This includes statements showing annoyance about limitations, treatment ineffectiveness, or feeling misunderstood by others. Look for expressions like 'I'm so angry that I can't do simple tasks,' 'Nothing helps with this pain,' or 'No one understands what I'm going through.'",
     "chunker": "user_message",
+    "version": "v1"
+  },
+  "Sleep Issues": {
+    "name": "Sleep Issues",
+    "prompt": "Does the user mention sleep problems related to their pain? This includes difficulty falling asleep, staying asleep, or poor sleep quality due to pain. Look for expressions like 'My pain keeps me up at night,' 'I can't get comfortable enough to sleep,' or 'I'm exhausted because pain wakes me up constantly.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Pain Distress": {
+    "name": "Immediate Pain Distress",
+    "prompt": "Is the user expressing current, acute pain distress in the moment? This includes statements indicating they are experiencing a pain flare-up or severe discomfort while chatting. Look for expressions like 'I'm in so much pain right now,' 'My pain is really bad at the moment,' or 'I can barely focus because of how much it hurts right now.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Self-Efficacy": {
+    "name": "Self-Efficacy",
+    "prompt": "Does the user express confidence in their ability to manage or cope with their pain? This includes statements suggesting they believe they can influence their pain experience or function despite pain. Look for expressions like 'I know I can find ways to deal with this,' 'I'm getting better at managing my flare-ups,' or 'I've learned some techniques that help me cope.'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Seeking Pain Education": {
+    "name": "Seeking Pain Education",
+    "prompt": "Is the user asking for factual information about pain, pain management strategies, or requesting explanations about how pain works? This includes questions about treatments, pain physiology, or management techniques. Look for expressions like 'Why does my pain get worse at night?', 'How does exercise help with pain?', or 'Can you explain how relaxation techniques work for pain?'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Seeking Health Education": {
+    "name": "Seeking Health Education",
+    "prompt": "Is the user asking for general health information related to lifestyle, wellness, or health-promoting behaviors beyond pain management? This includes questions about sleep hygiene, nutrition, general exercise benefits, stress management, or other health-related topics. Look for expressions like 'How does diet affect inflammation?', 'What are good sleep habits I should try?', 'How can I reduce stress in my daily life?', or 'Are there benefits to meditation beyond pain relief?'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Overcoming Boundaries": {
+    "name": "Overcoming Boundaries",
+    "prompt": "Is the user asking for specific medical advice, diagnosis, or treatment recommendations that would be outside the assistant's scope? This includes requests for medication recommendations, interpretation of test results, or diagnosis of conditions. Look for expressions like 'What medication should I take?', 'Can you tell me if this is arthritis?', or 'Should I get surgery for my back pain?'",
+    "chunker": "user_message",
+    "version": "v1"
+  },
+  "Using Cognitive Restructuring": {
+    "name": "Using Cognitive Restructuring",
+    "prompt": "Is the assistant helping the user identify, challenge, and modify negative or unhelpful thoughts about pain? Look for the assistant questioning the evidence for negative thoughts, or helping the user develop more balanced alternative thoughts. Examples include the assistant saying: 'Let's look at that thought more closely,' 'Is there another way to view this situation?', 'What evidence do you have that supports or doesn't support this thought?', or guiding the user to reframe their pain experience in a more balanced way.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Using Behavioral Activation": {
+    "name": "Using Behavioral Activation",
+    "prompt": "Is the assistant encouraging gradual re-engagement in meaningful activities despite pain? This includes guidance on pacing strategies, setting small achievable goals for activity, or helping address fear-avoidance patterns. Look for the assistant suggesting: step-by-step approaches to increase activity, ways to break down tasks into manageable parts, methods to balance activity and rest, or approaches to engage in valued activities despite pain.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Providing Relaxation Techniques": {
+    "name": "Providing Relaxation Techniques",
+    "prompt": "Is the assistant offering specific relaxation techniques to help manage pain and stress? This includes instructions for deep breathing, progressive muscle relaxation, body scanning, or guided imagery. Look for detailed guidance on how to perform these techniques, or recommendations of specific relaxation videos when appropriate.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Providing Mindfulness Techniques": {
+    "name": "Providing Mindfulness Techniques",
+    "prompt": "Is the assistant teaching or suggesting mindfulness-based approaches for pain management? This includes guidance on present-moment awareness, non-judgmental observation of sensations, mindful movement, or meditation practices specifically adapted for pain. Look for instructions on how to practice mindfulness with pain, suggestions to notice sensations without judgment, guidance on bringing awareness to the breath or body while experiencing pain, or recommendations of specific mindfulness videos when appropriate.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Providing Pain Education": {
+    "name": "Providing Pain Education",
+    "prompt": "Is the assistant offering educational information about pain physiology, sleep, nutrition, physical activity, or other health-promoting topics? This includes explanations about how pain works, the biopsychosocial model, or evidence-based approaches to pain management. Look for clear, accessible explanations that help users understand their pain experience or management strategies.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Providing Health Education": {
+    "name": "Providing Health Education",
+    "prompt": "Is the assistant offering educational information about general health and wellness topics beyond pain-specific education? This includes explanations about sleep hygiene, nutrition, stress management, general exercise benefits, or other lifestyle factors that promote overall health. Look for clear, evidence-based information about how these health behaviors may indirectly support pain management while benefiting overall wellbeing.",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Offering Emotional Support": {
+    "name": "Offering Emotional Support",
+    "prompt": "Is the assistant providing validation, empathy, and emotional support for the user's pain experience? This includes acknowledging the emotional impact of chronic pain, normalizing difficult feelings, and offering compassionate responses. Look for statements like 'That sounds really difficult,' 'It's completely understandable to feel that way,' or 'Living with chronic pain can be emotionally exhausting.'",
+    "chunker": "assistant_message",
+    "version": "v1"
+  },
+  "Maintaining Appropriate Boundaries": {
+    "name": "Maintaining Appropriate Boundaries",
+    "prompt": "Is the assistant appropriately redirecting requests that are outside its scope while still being helpful? This includes declining to provide specific medical advice, diagnosis, or treatment recommendations, while offering appropriate pain self-management strategies. Look for clear, compassionate explanations of limitations, paired with helpful information within the assistant's scope.",
+    "chunker": "assistant_message",
     "version": "v1"
   }
 }

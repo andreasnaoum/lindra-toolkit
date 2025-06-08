@@ -1,7 +1,7 @@
 from math import comb
 from typing import Any
 
-from emoclassifiers.classification import YesNoUnsureEnum
+from Classifiers.emoclassifiers.classification import YesNoUnsureEnum
 
 
 
@@ -31,7 +31,7 @@ class AnyAggregator(Aggregator):
     @classmethod
     def aggregate(cls, results: dict[str, YesNoUnsureEnum]) -> bool:
         return any(val == YesNoUnsureEnum.YES for val in results.values())
-    
+
 
 class AdjustedAggregator(Aggregator):
 
